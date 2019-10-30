@@ -1,0 +1,19 @@
+{
+  "name": "modularserver",
+  "version": "0.1.0",
+  "description": "Modular server implemation for nodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajh657/ModularServer.git"
+  },
+  "author": "ajh657",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajh657/ModularServer/issues"
+  },
+  "homepage": "https://github.com/ajh657/ModularServer#readme"
+}
