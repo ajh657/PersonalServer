@@ -1,8 +1,8 @@
 //Module Id
-module.id = "EX";
+exports.id = "EX";
 //Module Name
-module.name = "examplePlugin";
+exports.name = "examplePlugin";
 //Module initial Function
-module.init = function () {
+exports.init = function () {
     console.log("Hello World");
 };
