@@ -32,9 +32,16 @@ function commandHandler(command) {
         case "list" + eol:
             list();
             break;
+
+        case "clear" + eol:
+            clear();
+            break;
     
+        case "" + eol:
+            break;
+            
         default:
-            console.log("Command: " + command +" not found");
+            console.log("Command: " + command +" not found" + eol);
             break;
     }
 }
@@ -46,4 +53,8 @@ function list() {
         console.log("Description: " + plugin.discription);
         console.log();
     });
+}
+
+function clear() {
+    console.clear();
 }
