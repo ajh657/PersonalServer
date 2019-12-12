@@ -8,7 +8,6 @@ var eol = "";
 exports.init = function(app) {
     plugins = app.plugins;
     eol = app.EOL;
-    console.log(app.EOL);
     var standard_input = process.stdin;
     standard_input.setEncoding('utf-8');
 
