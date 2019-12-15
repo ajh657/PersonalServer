@@ -9,7 +9,7 @@ router.use(function Log (req, res, next) {
 });
 
 router.get('/', function (req, res) {
-  res.sendFile(path.resolve('./html/index.html'));
+  res.sendFile(path.resolve('./modules/express/html/index.html'));
 });
 
 module.exports = router;
