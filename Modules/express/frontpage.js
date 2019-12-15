@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.use(function Log (req, res, next) {
-    console.log(`[${new Date().toLocaleString()}] requested: ${req.path} by: ${req.ips}`);
+    console.log(`[${new Date().toLocaleString()}] requested: ${req.path} by: ${req.ip}`);
     next();
 });
 
