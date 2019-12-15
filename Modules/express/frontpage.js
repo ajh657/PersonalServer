@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var path = require('path');
 
 
 router.use(function Log (req, res, next) {
@@ -8,7 +9,7 @@ router.use(function Log (req, res, next) {
 });
 
 router.get('/', function (req, res) {
-  res.send('Hello world!');
+  res.sendFile(path.resolve('./html/index.html'));
 });
 
 module.exports = router;
