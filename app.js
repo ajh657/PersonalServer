@@ -4,7 +4,7 @@ var os = require('os');
 
 var plugins = [];
 
-var modulePath = path.resolve("./modules").toString();
+var modulePath = path.resolve("./Modules").toString();
 var regex = /^([a-zA-Z0-9\s_\\.\-\(\):])+\.(js)$/;
 
 var appData = {};
